@@ -25,7 +25,7 @@ SECRET_KEY = '*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','todoappdjango007.herokuapp']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','https://todoappdjango007.herokuapp.com/', config('SERVER', default='127.0.0.1')]
 
 
 # Application definition
